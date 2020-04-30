@@ -6,6 +6,8 @@ This library use full for compress large size image file.
 
 It will compress image in kb like whatsapp without losing it quality.
 
+It will store new compress file in your phone catch without touch your orignal file
+
 Step 1. Add the JitPack repository to your build file
 
 Add it in your root build.gradle at the end of repositories
