@@ -2,7 +2,8 @@
 Image Compreser
 [![](https://jitpack.io/v/rajeshbdabhi/Image_Compreser.svg)](https://jitpack.io/#rajeshbdabhi/Image_Compreser)
 
-This library use full for compress large size images without lose it quality
+This library use full for compress large size image file.
+It will compress image in kb like whatsapp without losing it quality.
 
 Step 1. Add the JitPack repository to your build file
 
