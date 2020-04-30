@@ -28,7 +28,7 @@ Add it in your app level build.gradle
     		implementation 'com.github.rajeshbdabhi:Image_Compreser:latest-version'
 	}
 	
-Usage:
+Usage in kotlin:
 
 	ImageCompreser.compressImage(
                         context,
@@ -38,3 +38,13 @@ Usage:
                                 //here can get new compress image file
                             }
                         })
+			
+
+Usage in java:
+
+	ImageCompreser.Companion.compressImage(context, file, new ImageCompreser.OnCompressListener() {
+            @Override
+            public void onCompressCompleted(@NotNull File compressFile) {
+                //here can get new compress image file
+            }
+        });
