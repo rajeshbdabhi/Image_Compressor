@@ -1,4 +1,4 @@
-package com.rajesh.imagecompreser
+package com.rajesh.imagecompressor
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.rajesh.imagecompreser.test", appContext.packageName)
+        assertEquals("com.rajesh.imagecompressor.test", appContext.packageName)
     }
 }

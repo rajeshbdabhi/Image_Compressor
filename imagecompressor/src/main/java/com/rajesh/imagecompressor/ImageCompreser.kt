@@ -1,4 +1,4 @@
-package com.rajesh.imagecompreser
+package com.rajesh.imagecompressor
 
 import android.content.Context
 import android.graphics.*
@@ -18,7 +18,7 @@ import java.text.DecimalFormat
  */
 open class ImageCompreser {
 
-    companion object {
+   companion object {
 
         fun convertBitmapToFile(context: Context, file: File): File? {
             try {

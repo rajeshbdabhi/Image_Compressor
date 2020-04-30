@@ -1,4 +1,4 @@
-package com.rajesh.imagecompreser
+package com.rajesh.imagecompressor
 
 import org.junit.Test
 

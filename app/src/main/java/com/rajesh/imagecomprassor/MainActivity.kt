@@ -17,7 +17,7 @@ import com.karumi.dexter.listener.PermissionDeniedResponse
 import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
-import com.rajesh.imagecompreser.ImageCompreser
+import com.rajesh.imagecompressor.ImageCompreser
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 import java.io.IOException
