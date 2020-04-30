@@ -30,10 +30,10 @@ Add it in your app level build.gradle
 	
 Usage in kotlin:
 
-	ImageCompreser.compressImage(
+	ImageCompressor.compressImage(
                         context,
                         file,
-                        object : ImageCompreser.OnCompressListener {
+                        object : ImageCompressor.OnCompressListener {
                             override fun onCompressCompleted(compressFile: File) {
                                 //here can get new compress image file
                             }
@@ -42,7 +42,7 @@ Usage in kotlin:
 
 Usage in java:
 
-	ImageCompreser.Companion.compressImage(context, file, new ImageCompreser.OnCompressListener() {
+	ImageCompressor.Companion.compressImage(context, file, new ImageCompressor.OnCompressListener() {
             @Override
             public void onCompressCompleted(@NotNull File compressFile) {
                 //here can get new compress image file
