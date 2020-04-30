@@ -26,7 +26,7 @@ Add it in your app level build.gradle
 	
 Usage:
 
-ImageCompreser.compressImage(
+	ImageCompreser.compressImage(
                         context,
                         file,
                         object : ImageCompreser.OnCompressListener {
