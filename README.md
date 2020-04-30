@@ -1,6 +1,6 @@
-# Image_Compreser
-Image Compreser
-[![](https://jitpack.io/v/rajeshbdabhi/Image_Compreser.svg)](https://jitpack.io/#rajeshbdabhi/Image_Compreser)
+# Image_Compressor
+Image Compressor
+[![](https://jitpack.io/v/rajeshbdabhi/Image_Compressor.svg)](https://jitpack.io/#rajeshbdabhi/Image_Compressor)
 
 This library use full for compress large size image file.
 
@@ -30,10 +30,10 @@ Add it in your app level build.gradle
 	
 Usage in kotlin:
 
-	ImageCompreser.compressImage(
+	ImageCompressor.compressImage(
                         context,
                         file,
-                        object : ImageCompreser.OnCompressListener {
+                        object : ImageCompressor.OnCompressListener {
                             override fun onCompressCompleted(compressFile: File) {
                                 //here can get new compress image file
                             }
@@ -42,7 +42,7 @@ Usage in kotlin:
 
 Usage in java:
 
-	ImageCompreser.Companion.compressImage(context, file, new ImageCompreser.OnCompressListener() {
+	ImageCompressor.Companion.compressImage(context, file, new ImageCompressor.OnCompressListener() {
             @Override
             public void onCompressCompleted(@NotNull File compressFile) {
                 //here can get new compress image file
