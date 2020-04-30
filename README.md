@@ -25,7 +25,7 @@ Step 2. Add the dependency
 Add it in your app level build.gradle
 
 	dependencies {
-    		implementation 'com.github.rajeshbdabhi:Image_Compreser:latest-version'
+    		implementation 'com.github.rajeshbdabhi:Image_Compressor:latest-version'
 	}
 	
 Usage in kotlin:
