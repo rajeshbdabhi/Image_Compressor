@@ -17,7 +17,7 @@ import com.karumi.dexter.listener.PermissionDeniedResponse
 import com.karumi.dexter.listener.PermissionGrantedResponse
 import com.karumi.dexter.listener.PermissionRequest
 import com.karumi.dexter.listener.single.PermissionListener
-import com.rajesh.imagecompressor.ImageCompreser
+import com.rajesh.imagecompressor.ImageCompressor
 import kotlinx.android.synthetic.main.activity_main.*
 import java.io.File
 import java.io.IOException
@@ -162,13 +162,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     cursor.close()
 
                     if (file.exists()) {
-                        tv_original_size.text = ImageCompreser.getFileSize(file)
-                        ImageCompreser.compressImage(
+                        tv_original_size.text = ImageCompressor.getFileSize(file)
+                        ImageCompressor.compressImage(
                             this@MainActivity,
                             file,
-                            object : ImageCompreser.OnCompressListener {
+                            object : ImageCompressor.OnCompressListener {
                                 override fun onCompressCompleted(compressFile: File) {
-                                    tv_compress_size.text = ImageCompreser.getFileSize(compressFile)
+                                    tv_compress_size.text = ImageCompressor.getFileSize(compressFile)
                                     val bitmap = BitmapFactory.decodeFile(compressFile.absolutePath)
                                     // Set the Image in ImageView after decoding the String
                                     iv_img.setImageBitmap(bitmap)
@@ -184,13 +184,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
                 val file = File(currentPhotoPath)
                 if (file.exists()) {
-                    tv_original_size.text = ImageCompreser.getFileSize(file)
-                    ImageCompreser.compressImage(
+                    tv_original_size.text = ImageCompressor.getFileSize(file)
+                    ImageCompressor.compressImage(
                         this@MainActivity,
                         file,
-                        object : ImageCompreser.OnCompressListener {
+                        object : ImageCompressor.OnCompressListener {
                             override fun onCompressCompleted(compressFile: File) {
-                                tv_compress_size.text = ImageCompreser.getFileSize(compressFile)
+                                tv_compress_size.text = ImageCompressor.getFileSize(compressFile)
                                 val bitmap = BitmapFactory.decodeFile(compressFile.absolutePath)
                                 // Set the Image in ImageView after decoding the String
                                 iv_img.setImageBitmap(bitmap)

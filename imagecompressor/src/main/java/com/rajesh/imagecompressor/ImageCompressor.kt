@@ -16,7 +16,7 @@ import java.text.DecimalFormat
 /**
  * Created on 10-10-2019.
  */
-open class ImageCompreser {
+open class ImageCompressor {
 
    companion object {
 
