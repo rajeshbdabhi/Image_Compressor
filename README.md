@@ -1,6 +1,6 @@
-# Image_Compreser
-Image Compreser
-[![](https://jitpack.io/v/rajeshbdabhi/Image_Compreser.svg)](https://jitpack.io/#rajeshbdabhi/Image_Compreser)
+# Image_Compressor
+Image Compressor
+[![](https://jitpack.io/v/rajeshbdabhi/Image_Compressor.svg)](https://jitpack.io/#rajeshbdabhi/Image_Compressor)
 
 This library use full for compress large size image file.
 
