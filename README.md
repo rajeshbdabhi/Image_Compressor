@@ -42,7 +42,7 @@ Usage in kotlin:
 
 Usage in java:
 
-	ImageCompressor.Companion.compressImage(context, file, new ImageCompressor.OnCompressListener() {
+	ImageCompressor.compressImage(context, file, new ImageCompressor.OnCompressListener() {
             @Override
             public void onCompressCompleted(@NotNull File compressFile) {
                 //here can get new compress image file
