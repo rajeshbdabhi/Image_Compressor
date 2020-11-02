@@ -18,8 +18,9 @@ import java.text.DecimalFormat
  */
 open class ImageCompressor {
 
-   companion object {
+    companion object {
 
+        @JvmStatic
         fun convertBitmapToFile(context: Context, file: File): File? {
             try {
 
@@ -92,6 +93,7 @@ open class ImageCompressor {
             }
         }
 
+        @JvmStatic
         fun compressImage(
             context: Context,
             fileOriginal: File,
@@ -267,6 +269,7 @@ open class ImageCompressor {
         private val MiB = (1024 * 1024).toLong()
         private val KiB: Long = 1024
 
+        @JvmStatic
         fun getFileSize(file: File): String {
 
             require(file.isFile) { "Expected a file" }
